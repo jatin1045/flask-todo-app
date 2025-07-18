@@ -9,9 +9,15 @@
   <form action="/submittodoitem" method="POST">
     <label for="itemName">Item Name:</label><br>
     <input type="text" name="itemName" id="itemName" required><br><br>
-    
+
     <label>Item ID:</label>
     <input type="text" name="itemID" required><br>
+
+    {% comment %} <label>Item UUID:</label>
+    <input type="text" name="itemUUID" required><br>
+
+    <label>Item Hash:</label>
+    <input type="text" name="itemHash" required><br> {% endcomment %}
 
     <label for="itemDescription">Item Description:</label><br>
     <textarea name="itemDescription" id="itemDescription" required></textarea><br><br>
